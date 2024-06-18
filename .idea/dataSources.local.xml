@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="restserviceDB@localhost" uuid="3ab325f0-39c8-4a68-aff5-a50d49c231d8">
+      <database-info product="PostgreSQL" version="14.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="14.5" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>test</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+      <legacy-introspector>true</legacy-introspector>
+      <load-sources>user_sources</load-sources>
+    </data-source>
+  </component>
+</project>
