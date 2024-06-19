@@ -53,9 +53,9 @@ public class UserServlet extends HttpServlet {
         Optional<UserIncomingDto> userResponse;
         try {
 
-                userResponse = Optional.ofNullable(objectMapper.readValue(json, UserIncomingDto.class));
-                UserIncomingDto user = userResponse.orElseThrow(IllegalArgumentException::new);
-                responseAnswer = objectMapper.writeValueAsString(userService.save(user));
+            userResponse = Optional.ofNullable(objectMapper.readValue(json, UserIncomingDto.class));
+            UserIncomingDto user = userResponse.orElseThrow(IllegalArgumentException::new);
+            responseAnswer = objectMapper.writeValueAsString(userService.save(user));
 
         } catch (Exception e) {
             resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
@@ -73,22 +73,23 @@ public class UserServlet extends HttpServlet {
         String responseAnswer = "";
         try {
             String[] pathPart = req.getPathInfo().split("/");
-            if ("".equals(pathPart[1])) {
+            if (pathPart.length == 1/*||"".equals(pathPart[1])*/) {
                 List<UserOutGoingDto> userDtoList = userService.findAll();
                 resp.setStatus(HttpServletResponse.SC_OK);
                 responseAnswer = objectMapper.writeValueAsString(userDtoList);
-            } else if(!"".equals(pathPart[1]) && "friends".equals(pathPart[2])&& "common".equals(pathPart[3]) && !"".equals(pathPart[4])) {
-                Long userId = Long.parseLong(pathPart[1]);
-                Long otherUserId = Long.parseLong(pathPart[4]);
-                List<UserOutGoingDto> friends = userService.findCommonFriendsForTwoUsers(userId,otherUserId);
-                resp.setStatus(HttpServletResponse.SC_OK);
-                responseAnswer = objectMapper.writeValueAsString(friends);
-            } else {
+            } else if (pathPart.length == 2) {
                 Long userId = Long.parseLong(pathPart[1]);
                 UserOutGoingDto userDto = userService.findById(userId);
                 resp.setStatus(HttpServletResponse.SC_OK);
                 responseAnswer = objectMapper.writeValueAsString(userDto);
+            } else if (!"".equals(pathPart[1]) && "friends".equals(pathPart[2]) && "common".equals(pathPart[3]) && !"".equals(pathPart[4])) {
+                Long userId = Long.parseLong(pathPart[1]);
+                Long otherUserId = Long.parseLong(pathPart[4]);
+                List<UserOutGoingDto> friends = userService.findCommonFriendsForTwoUsers(userId, otherUserId);
+                resp.setStatus(HttpServletResponse.SC_OK);
+                responseAnswer = objectMapper.writeValueAsString(friends);
             }
+
         } catch (NotFoundException e) {
             resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
             responseAnswer = e.getMessage();
@@ -130,10 +131,10 @@ public class UserServlet extends HttpServlet {
         String responseAnswer = "";
         Optional<UserUpdateDto> userResponse;
         try {
-            if (req.getPathInfo()==null) {
-            userResponse = Optional.ofNullable(objectMapper.readValue(json, UserUpdateDto.class));
-            UserUpdateDto userUpdateDto = userResponse.orElseThrow(IllegalArgumentException::new);
-            responseAnswer = objectMapper.writeValueAsString(userService.update(userUpdateDto));
+            if (req.getPathInfo() == null) {
+                userResponse = Optional.ofNullable(objectMapper.readValue(json, UserUpdateDto.class));
+                UserUpdateDto userUpdateDto = userResponse.orElseThrow(IllegalArgumentException::new);
+                responseAnswer = objectMapper.writeValueAsString(userService.update(userUpdateDto));
             } else {
                 String[] pathPart = req.getPathInfo().split("/");
                 if (!"".equals(pathPart[1]) && "friends".equals(pathPart[2]) && !"".equals(pathPart[3])) {

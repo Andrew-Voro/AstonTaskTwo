@@ -8,6 +8,7 @@ import aston.repository.UserRepository;
 
 import java.sql.Date;
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.*;
 
 public class UserRepositoryImpl implements UserRepository {
@@ -19,7 +20,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     private static final String FIND_BY_ID_SQL = "SELECT u.USER_ID, u.EMAIL, u.USER_NAME, u.LOGIN,u.BIRTHDAY,f.FRIEND_ID FROM users AS u LEFT JOIN friends AS f ON u.USER_ID = f.U_ID  WHERE USER_ID = ?;";
 
-    private static final String FIND_ALL_SQL = "SELECT USER_ID, EMAIL,  USER_NAME, LOGIN, BIRTHDAY FROM users;";
+    private static final String FIND_ALL_SQL = "SELECT USER_ID, EMAIL,  USER_NAME, LOGIN, BIRTHDAY,f.FRIEND_ID FROM users AS u LEFT JOIN friends AS f ON u.USER_ID = f.U_ID;";
 
     private static final String EXIST_BY_ID_SQL = "SELECT exists (SELECT 1 FROM users WHERE user_id = ? LIMIT 1);";
     private static UserRepository instance;
@@ -54,7 +55,7 @@ public class UserRepositoryImpl implements UserRepository {
             preparedStatement.setString(1, user.getEmail());
             preparedStatement.setString(2, user.getName());
             preparedStatement.setString(3, user.getLogin());
-            preparedStatement.setDate(4, Date.valueOf(user.getBirthday()));
+            preparedStatement.setDate(4,user.getBirthday()!=null? Date.valueOf(user.getBirthday()):Date.valueOf(LocalDate.now()));
             preparedStatement.executeUpdate();
 
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
