@@ -1,8 +1,6 @@
 package aston.servlets.dto;
 
 
-import java.time.LocalDate;
-
 public class UserIncomingDto {
 
 

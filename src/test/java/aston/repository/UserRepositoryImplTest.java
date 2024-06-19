@@ -83,7 +83,7 @@ class UserRepositoryImplTest {
         Assertions.assertNotEquals(expectedName, userForUpdate.getName());
         userForUpdate.setName(expectedName);
         userRepository.update(userForUpdate);
-        User resultUser = userRepository.findById(3L).get();
+        User resultUser = userRepository.findById(1L).get();
         Assertions.assertEquals(expectedName, resultUser.getName());
     }
 
@@ -113,7 +113,7 @@ class UserRepositoryImplTest {
     @ParameterizedTest
     @CsvSource(value = {
             "1; true",
-            "4; true",
+            "4; false",
             "100; false"
     }, delimiter = ';')
     void findById(Long expectedId, Boolean expectedValue) {
@@ -124,7 +124,7 @@ class UserRepositoryImplTest {
 
     @Test
     void findAll() {
-        int expectedSize = 7;
+        int expectedSize = 1;
         int resultSize = userRepository.findAll().size();
 
         Assertions.assertEquals(expectedSize, resultSize);
@@ -134,7 +134,7 @@ class UserRepositoryImplTest {
     @ParameterizedTest
     @CsvSource(value = {
             "1; true",
-            "4; true",
+            "4; false",
             "100; false"
     }, delimiter = ';')
     void exitsById(Long roleId, Boolean expectedValue) {

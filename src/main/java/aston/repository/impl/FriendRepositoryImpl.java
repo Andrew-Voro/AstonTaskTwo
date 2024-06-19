@@ -5,7 +5,6 @@ import aston.db.ConnectionManagerImpl;
 import aston.exception.RepositoryException;
 import aston.model.User;
 import aston.repository.FriendRepository;
-import aston.repository.UserRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -22,13 +21,13 @@ public class FriendRepositoryImpl implements FriendRepository {
             "LEFT JOIN users as us ON f.FRIEND_ID = us.USER_ID WHERE u.USER_ID =? AND " +
             "f.FRIEND_ID IN (SELECT f.FRIEND_ID FROM users AS u LEFT JOIN friends AS f ON u.USER_ID = f.U_ID" +
             "  WHERE u.USER_ID =?)";
-    private final UserRepository userRepository = UserRepositoryImpl.getInstance();
+    private static final String DELETE_FRIEND_BY_U_ID_SQL = "DELETE FROM FRIENDS WHERE U_ID = ?;";
+    private static final String EXIST_FRIENDS_BY_ID_SQL = "SELECT exists (SELECT 1 FROM FRIENDS WHERE U_ID = ? LIMIT 1);";
+
 
     private static FriendRepository instance;
     private final ConnectionManager connectionManager = ConnectionManagerImpl.getInstance();
 
-    private FriendRepositoryImpl() {
-    }
 
     public static synchronized FriendRepository getInstance() {
         if (instance == null) {
@@ -39,7 +38,7 @@ public class FriendRepositoryImpl implements FriendRepository {
 
 
     @Override
-    public User save(Long userId, Long friendId) {
+    public void save(Long userId, Long friendId) {
         try (Connection connection = connectionManager.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(SAVE_SQL)) {
 
@@ -47,9 +46,6 @@ public class FriendRepositoryImpl implements FriendRepository {
             preparedStatement.setLong(2, friendId);
 
             preparedStatement.executeUpdate();
-
-            User user = userRepository.findById(userId).get();
-            return user;
 
         } catch (SQLException e) {
             throw new RepositoryException(e);
@@ -90,4 +86,37 @@ public class FriendRepositoryImpl implements FriendRepository {
                 null);
         return user;
     }
+
+    @Override
+    public boolean exitsFriendsById(Long id) {
+        boolean isExists = false;
+        try (Connection connection = connectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(EXIST_FRIENDS_BY_ID_SQL)) {
+
+            preparedStatement.setLong(1, id);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                isExists = resultSet.getBoolean(1);
+            }
+        } catch (SQLException e) {
+            throw new RepositoryException(e);
+        }
+        return isExists;
+    }
+
+    @Override
+    public boolean deleteFriendsByUId(Long id) {
+        exitsFriendsById(id);
+        boolean deleteResult;
+        try (Connection connection = connectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(DELETE_FRIEND_BY_U_ID_SQL);) {
+            preparedStatement.setLong(1, id);
+            deleteResult = preparedStatement.executeUpdate() > 0;
+        } catch (SQLException e) {
+            throw new RepositoryException(e);
+        }
+        return deleteResult;
+    }
+
 }

@@ -86,7 +86,8 @@ public class UserServiceImpl implements UserService {
     public UserOutGoingDto addFriend(Long userId, Long friendId) {
         userRepository.exitsById(userId);
         userRepository.exitsById(friendId);
-        return userDtoMapper.map(friendRepository.save(userId, friendId));
+        friendRepository.save(userId, friendId);
+        return userDtoMapper.map(userRepository.findById(userId).get());
     }
 
 

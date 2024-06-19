@@ -19,6 +19,13 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ *The program begin to implement a topic of java course of YaPracticum using servlet technology instead of Spring MVC;
+ * All implemented endpoints have test of Postman, see postman directory.
+ * make functions: create user, create friends, find all users with friends, find users by id with friends,
+ * find common friends for any two users.
+ */
+
 @WebServlet(urlPatterns = {"/users/*"})
 public class UserServlet extends HttpServlet {
     private final transient UserService userService = UserServiceImpl.getInstance();

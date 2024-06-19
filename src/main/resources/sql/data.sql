@@ -43,3 +43,5 @@ VALUES(5,'Документальный');
 INSERT INTO PUBLIC.GENRE
 (GENRE_ID,GENRE_NAME)
 VALUES(6,'Боевик');
+
+
