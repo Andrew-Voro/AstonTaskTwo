@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae60d43a-240a-4083-9ce4-8dca6b6ab193" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aston/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aston/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aston/repository/FriendRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aston/repository/FriendRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aston/repository/impl/FriendRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aston/repository/impl/FriendRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aston/repository/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aston/repository/impl/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aston/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aston/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aston/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aston/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aston/repository/UserRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aston/repository/UserRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aston/service/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aston/service/UserServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="289">
+              <caret line="185" selection-start-line="185" selection-end-line="185" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,40 +72,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="98" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="98" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3ab325f0-39c8-4a68-aff5-a50d49c231d8/database/restserviceDB/schema/public/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3ab325f0-39c8-4a68-aff5-a50d49c231d8/database/restserviceDB/schema/public/table/friends">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/aston/servlets/UserServletTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,43 +132,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/schema.sql">
+        <entry file="file://$PROJECT_DIR$/src/test/java/aston/service/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1147">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aston/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aston/util/InitSqlScheme.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aston/util/PropertiesUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,10 +146,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
+            <state relative-caret-position="-68">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserIncomingDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,14 +203,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserIncomingDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserUpdateDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/servlets/mapper/UserDtoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/servlets/mapper/impl/UserDtoMapperImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/repository/FriendStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/model/Friend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aston/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserOutGoingDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/repository/UserRepository.java" />
@@ -233,14 +221,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/aston/servlets/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aston/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserIncomingDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java" />
       </list>
     </option>
   </component>
@@ -285,133 +275,6 @@
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aston2next" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aston" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
@@ -724,7 +587,7 @@
       <updated>1718369350329</updated>
       <workItem from="1718369352733" duration="5602000" />
       <workItem from="1718521298628" duration="53616000" />
-      <workItem from="1718790246153" duration="21578000" />
+      <workItem from="1718790246153" duration="22166000" />
     </task>
     <servers />
   </component>
@@ -761,12 +624,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80796000" />
+    <option name="totallyTimeSpent" value="81384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18053691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -777,7 +640,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43767706" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3101983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34419262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,11 +662,11 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17986578" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.33221477" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Key Promoter X" order="6" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="7" weight="0.14295302" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.14295302" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -1112,43 +975,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>63</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>64</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>66</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>68</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>69</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>70</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java</url>
-          <line>76</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
@@ -1442,34 +1305,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar!/org/postgresql/util/PGPropertyUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar!/org/postgresql/util/internal/Nullness.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar!/org/postgresql/PGProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-          <folding>
-            <element signature="e#14328#14329#0" expanded="true" />
-            <element signature="e#14360#14361#0" expanded="true" />
-            <element signature="e#14413#14414#0" expanded="true" />
-            <element signature="e#14453#14454#0" expanded="true" />
-            <element signature="e#14832#14833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar!/org/postgresql/util/HostSpec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1537,19 +1372,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/model/Friend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserOutGoingDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1569,27 +1391,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserIncomingDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,23 +1437,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/aston/service/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/db/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-17/lib/src.zip!/java.sql/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1674,63 +1458,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/aston/servlets/UserServletTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/db/ConnectionManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1765,16 +1492,6 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="98" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1147">
@@ -1803,13 +1520,10 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://3ab325f0-39c8-4a68-aff5-a50d49c231d8/database/restserviceDB/schema/public/table/friends">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1820,27 +1534,169 @@ PreparedStatement preparedStatement = connection.prepareStatement(DELETE_SQL);
         </state>
       </provider>
     </entry>
-    <entry file="das://3ab325f0-39c8-4a68-aff5-a50d49c231d8/database/restserviceDB/schema/public/table/friends">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/model/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/db/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/db/ConnectionManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/exception/DataBaseDriverLoadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/exception/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/exception/RepositoryException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/FriendRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/FriendRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aston/servlets/dto/UserIncomingDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/aston/repository/UserRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/aston/service/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/aston/servlets/UserServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
